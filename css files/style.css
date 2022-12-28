@@ -363,6 +363,7 @@ hr{
 /* sec-1 end */
 /* sec-2 start */
 .sec-2 .sec-2-text{
+    margin-top: 30px;
     text-align: center;
 }
 .sec-2 .sec-2-text h1{
@@ -379,6 +380,97 @@ hr{
     letter-spacing: 2px;
     color: #393e46b1;
     font-weight: 600;
+}
 
+.sec-2 .sec-2-container{
+    margin: 80px;
+}
+.sec-2 .sec-2-container .cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.sec-2 .sec-2-container .cards .card{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    gap: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #393e46a7;
+}
+.sec-2 .sec-2-container .cards .card img{
+    
+    width: 450px;
+    border-radius: 10px 0 0px 10px;
+}
+.sec-2 .sec-2-container .cards .card .card-text{
+    margin-left: 5%;
+}
+.sec-2 .sec-2-container .cards .card .card-text h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #222831;
+    font-size: 32px;
+}
+.sec-2 .sec-2-container .cards .card .card-text p{
+    color: #393e46c4;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.sec-2 .sec-2-container .cards .card .card-text  span{
+    margin-right: 10px;
+}
+.sec-2 .sec-2-container .cards .card .card-text .fa-solid{
+    color: #02878e;
+    margin-right: 5px;
+}
+.sec-2 .sec-2-container .cards .card .card-review{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.sec-2 .sec-2-container .cards .card .card-review .fa-solid{
+    color: #f2c230  ;
+}
+.sec-2 .sec-2-container .cards .card .card-review .btn{
+    margin-top: 70%;
+}
+.sec-2 .sec-2-container .cards .card .card-review .btn button{
+    background-color: #00ADB5;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #222831;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sec-2 .sec-2-container .cards .card .card-review .btn button:hover{
+    background-color: #02878e;
+}
+.sec-2 .sec-2-container .cards .card .card-review .btn button .fa-regular{
+    margin-right: 5px;
+}
+.sec-2 .sec-2-container .dots{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.sec-2 .sec-2-container .dots .dot{
+    background-color: #00ADB5;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.sec-2 .sec-2-container .dots .dot:nth-child(1){
+    background-color: #02878e;
 }
 /* sec-2 end */
